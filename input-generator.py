@@ -18,7 +18,7 @@ def main():
     print("Generating input...")
     input_list: str = generate_input(spaces)
 
-    print("Writing input...")
+    print(f"Writing input to \"{input_filepath}\"...")
     with open(input_filepath, "w") as input_file:
         input_file.write(input_list)
 
