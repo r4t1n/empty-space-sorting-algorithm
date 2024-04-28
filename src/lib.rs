@@ -19,7 +19,6 @@ pub fn sort(input: String) -> String {
             }
 
             input_vec.swap(index_rev as usize, index as usize);
-            index += 1;
         };
 
         index_rev -= 1;
