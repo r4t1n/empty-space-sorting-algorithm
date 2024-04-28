@@ -20,6 +20,6 @@ fn main() {
     };
 
     println!("Sorting input...");
-    let output: String = empty_space_sorting_algorithm::sort(input.clone());
+    let output: String = empty_space_sorting_algorithm::sort(input);
     println!("\nOutput:\n{}", output);
 }
