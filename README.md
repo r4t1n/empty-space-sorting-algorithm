@@ -60,7 +60,7 @@ python3 input-generator.py 100
 A file called `input-100` will then be created and the input will be written to it
 
 ## Sorting input
-The sorting program is built in Rust, you will need   `cargo` to build it, you can install it from https://rustup.rs
+The sorting program is built in Rust, you will need `cargo` to build it, you can install it from https://rustup.rs
 
 Build the sorting program with:
 
